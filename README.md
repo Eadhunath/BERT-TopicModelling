@@ -27,8 +27,8 @@ In essence this was looked at as an alternative to LDA.
 
 
 
--   Tasks 1 and 2 are done in [1.BERT_Pretraining]()
--   Tasks 3, 4, 5 are done in [2.Word_Embeddings]()
+-   Tasks 1 and 2 are done in [1.BERT_Pretraining](https://github.com/AceEV/BERT-TopicModelling/blob/master/1.BERT_Pretraining.ipynb)
+-   Tasks 3, 4, 5 are done in [2.Word_Embeddings](https://github.com/AceEV/BERT-TopicModelling/blob/master/2.Word_Embeddings.ipynb)
 
 
 
@@ -38,6 +38,6 @@ In essence this was looked at as an alternative to LDA.
 -   References from multiple sources were used.
 -   All the details for running the files are mentioned within the notebooks in detailed comments.
 -   In brief :
-    -   Start with running the Pretraining. Make sure to accurately set the `BUCKET_NAME` and the directories.
+    -   Start with running [1.BERT_Pretraining](https://github.com/AceEV/BERT-TopicModelling/blob/master/1.BERT_Pretraining.ipynb). Make sure to accurately set the `BUCKET_NAME` and the directories.
     -   Once done, but the `.ckpt, vocab.txt, config.json` files in a Google Drive Folder.
-    -   Then run Word_Embeddings with the proper paths set.
+    -   Then run [2.Word_Embeddings](https://github.com/AceEV/BERT-TopicModelling/blob/master/2.Word_Embeddings.ipynb) with the proper paths set.
